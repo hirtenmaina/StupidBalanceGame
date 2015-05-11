@@ -15,7 +15,7 @@ public class CollisionTest : MonoBehaviour {
 		} else {
 		
 			gameObject.GetComponent<Renderer>().material.color = Color.red;
-		
+			Debug.Log ("colour set to RED");
 		}
 	}
 
