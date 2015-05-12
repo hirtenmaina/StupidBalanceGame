@@ -1,12 +1,12 @@
-﻿using UnityEngine;
+﻿
+using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class CollisionTest : MonoBehaviour {
 
 	public float interval;
-	public Color friendlyColor;
 	private Color cubeColor;
-	//private team = 0;
 
 	
 	void Update(){	

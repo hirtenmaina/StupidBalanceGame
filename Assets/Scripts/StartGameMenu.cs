@@ -3,20 +3,20 @@ using System.Collections;
 
 public class StartGameMenu : MonoBehaviour {
 	
-	protected void OnGUI(){
-		if (GUILayout.Button("Start Game!")){
-			StartGame();
-		}
+
+	void Start(){
 	}
 
-	// Update is called once per frame
 	void Update () {
 	
 	}
 
-	protected void StartGame()
+	public void StartGame()
 	{
 		Application.LoadLevel (1);// 1 refers to the second scene in the build settings.
 	}
 
+	public void Exit(){
+		Application.Quit();
+	}
 }
