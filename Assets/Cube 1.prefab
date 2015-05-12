@@ -14,7 +14,7 @@ GameObject:
   - 114: {fileID: 11490000}
   m_Layer: 0
   m_Name: Cube 1
-  m_TagString: Untagged
+  m_TagString: PickUpCube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f761f57d60066524d9c44c13896d1094, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 10
+  interval: 8
 --- !u!135 &13534908
 SphereCollider:
   m_ObjectHideFlags: 1
